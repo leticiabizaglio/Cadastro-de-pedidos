@@ -8,6 +8,18 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <div id="container">
+        <h2>Cadastro de pedidos</h2>
+        <div id="container-inputs">
+            <input type="text" id="cliente" placeholder="Cliente" required>
+            <input type="number" id="mesa" placeholder="Mesa" required>
+            <input type="text" id="descricao" placeholder="Descrição" required>
+        </div>
+        <button id="botaoCadastrar" onclick="CadastrarProduto()">Cadastrar</button>
+        <p id="msg"></p>
+        <button id="botaoEditar" class="hidden" onclick="editarEquipe()">Editar Equipe</button>
+    </div>
+    <div id="mostrar-lateral"></div>
     
 </body>
 </html>
